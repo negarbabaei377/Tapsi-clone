@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Iranyekan-medium;
+    src: url("../assets/fonts/Yekan.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Iranyekan-bold;
+    src: url("../assets/fonts/Yekan.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body , button , ::placeholder , input , textarea{
+    font-family: Iranyekan-medium , sans-serif;
+}
