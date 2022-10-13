@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fa"
+      dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="stylesheet"
+          href="../css/font.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet"
+          href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container block">
+        <div class="accordion-wrapper">
+            <div class="accordion accordion__expanded">
+                <header class="accordion__header">
+                    <h2 class="accordion__heading">سابقه تحصیلی</h2>
+                    <span class="iconify icon"
+                          data-icon="bx:chevron-up"
+                          style="color: #333;"
+                          data-width="24"
+                          data-height="24"></span>
+                    <!--                <span class="iconify icon" data-icon="bx:chevron-down" style="color: #333;" data-width="24" data-height="24"></span>-->
+                </header>
+                <div class="accordion__content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut debitis, dicta earum eos error explicabo facilis iste laborum minus odio perspiciatis placeat possimus quae quasi qui veniam, veritatis voluptatum!
+                </div>
+            </div>
+            <div class="accordion accordion__expanded">
+                <header class="accordion__header">
+                    <h2 class="accordion__heading">سابقه تحصیلی</h2>
+                    <span class="iconify icon"
+                          data-icon="bx:chevron-up"
+                          style="color: #333;"
+                          data-width="24"
+                          data-height="24"></span>
+                    <!--                <span class="iconify icon" data-icon="bx:chevron-down" style="color: #333;" data-width="24" data-height="24"></span>-->
+                </header>
+                <div class="accordion__content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut debitis, dicta earum eos error explicabo facilis iste laborum minus odio perspiciatis placeat possimus quae quasi qui veniam, veritatis voluptatum!
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const accordionHeader = document.querySelector(".accordion__header");
+        const accordion = document.querySelector(".accordion");
+        accordionHeader.addEventListener("click", e => {
+                accordion.classList.toggle("accordion__expanded")
+            }
+        )
+    </script>
+</body>
+</html>
